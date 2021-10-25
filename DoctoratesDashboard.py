@@ -4,7 +4,7 @@ import plotly.graph_objects as go
 
 # @st.cache
 
-df_codes = pd.read_csv('https://github.com/dapoade/Doctorate-Dashboards/blob/main/DoctoratesbyStateandDegree.csv')
+df_codes = pd.read_csv('https://raw.githubusercontent.com/dapoade/Doctorate-Dashboards/main/DoctoratesbyStateandDegree.csv')
 
 
 st.markdown(""" # Doctorates Dashboard
