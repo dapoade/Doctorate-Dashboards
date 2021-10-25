@@ -32,7 +32,7 @@ selected_field = st.sidebar.selectbox("Field:", list(df_codes.iloc[:,1:7].column
 # df_codes['text'] = ("State:" + df_codes['State'] + '<br>' + \
 #  "{} Doctorates".format(str(selected_field)) + df_codes.loc[df_codes.State, df_codes[str(selected_field)]])
 
-st.markdown("""
+st.markdown("""  
 
 As mentioned in the blog posts, the purpose of these dashboards are to further highlight the popularity of specific types of Doctorate degrees.
 There is a filter on the left that allows you to choose the Field of Study of interest. Additionally, you can click on the lasso or box to
