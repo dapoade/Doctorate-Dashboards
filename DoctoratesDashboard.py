@@ -1,11 +1,10 @@
 import streamlit as st
 import pandas as pd
-import plotly 
 import plotly.graph_objects as go
 
 # @st.cache
 
-df_codes = pd.read_csv('/Users/dapoadegbile/Documents/Biostat 823/Homework/DoctoratesbyStateandDegree.csv')
+df_codes = pd.read_csv('https://github.com/dapoade/Doctorate-Dashboards/blob/main/DoctoratesbyStateandDegree.csv')
 
 
 st.markdown(""" # Doctorates Dashboard
