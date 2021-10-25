@@ -15,7 +15,10 @@ The original data contains the total numbers doctorates granted broken down by i
 As a result, I decided to visualize the state-level statistics as the base of analysis. The fields of study are broken down into All Fields, Life Sciences, Physical Sciences and Earth Sciences, Mathematics and Computer Sciences,
 Psychology and Scoail Sciences and Engineering.
 
-#### Below is a dashboard of number of  **Doctorates** by **State** for each **type of degree**. """)
+#### Below is a dashboard of number of  **Doctorates** by **State** for each **type of degree**. 
+<br />
+
+""")
 
 
 for col in df_codes.columns:
