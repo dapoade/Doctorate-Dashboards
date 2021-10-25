@@ -15,7 +15,7 @@ The original data contains the total numbers doctorates granted broken down by i
 As a result, I decided to visualize the state-level statistics as the base of analysis. The fields of study are broken down into All Fields, Life Sciences, Physical Sciences and Earth Sciences, Mathematics and Computer Sciences,
 Psychology and Scoail Sciences and Engineering.
 
-#### Below is a dashboard of number of  **Doctorates** by **State** for each **type of degree**. \
+#### Below is a dashboard of number of  **Doctorates** by **State** for each **type of degree**.  
 
 """)
 
@@ -32,7 +32,7 @@ selected_field = st.sidebar.selectbox("Field:", list(df_codes.iloc[:,1:7].column
 # df_codes['text'] = ("State:" + df_codes['State'] + '<br>' + \
 #  "{} Doctorates".format(str(selected_field)) + df_codes.loc[df_codes.State, df_codes[str(selected_field)]])
 
-st.write("""
+st.markdown("""
 
 As mentioned in the blog posts, the purpose of these dashboards are to further highlight the popularity of specific types of Doctorate degrees.
 There is a filter on the left that allows you to choose the Field of Study of interest. Additionally, you can click on the lasso or box to
